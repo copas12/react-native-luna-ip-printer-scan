@@ -2,11 +2,11 @@
 
 ## Getting started
 
-`$ npm install react-native-luna-ip-printer-scan --save`
+`$ yarn add github:copas12/react-native-luna-ip-printer-scan`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-luna-ip-printer-scan`
+`$ npx react-native link @luna/ip-printer-scan`
 
 ## Usage
 
