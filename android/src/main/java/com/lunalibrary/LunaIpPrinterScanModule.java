@@ -80,7 +80,7 @@ public class LunaIpPrinterScanModule extends ReactContextBaseJavaModule {
                 ips.add(subnetPlusOne);
             }
 
-            final int timeout = 150;
+            final int timeout = 300;
             final List<Future<WritableNativeMap>> futures = new ArrayList<>();
 
             for (int counter = 0; counter < ips.size(); counter++) { 
