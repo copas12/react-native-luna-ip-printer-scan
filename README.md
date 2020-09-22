@@ -11,7 +11,7 @@
 ## Usage
 
 ```javascript
-import LunaIpPrinterScan from '@luna/ip-printer-scan';
+import LunaIpPrinterScanner from '@luna/ip-printer-scan';
 
 ...
 eventListener: any;
@@ -34,5 +34,5 @@ componentWillUnmount() {
 
 ...
 // trigger scan
-LunaIpPrinterScan.scan();
+LunaIpPrinterScanner.scan();
 ```
