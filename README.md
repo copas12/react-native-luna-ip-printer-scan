@@ -16,7 +16,7 @@ import LunaIpPrinterScan from '@luna/ip-printer-scan';
 ...
 eventListener: any;
 state = {
-  ip: [];
+  printers: [];
 }
 
 componentWillMount() {
